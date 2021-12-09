@@ -81,7 +81,7 @@ namespace UnityStandardAssets.Utility
         }
 
 
-        private void Update()
+        private void FixedUpdate()
         {
             if (progressStyle == ProgressStyle.SmoothAlongRoute)
             {
